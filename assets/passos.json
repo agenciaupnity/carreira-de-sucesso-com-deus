@@ -1,1 +1,80 @@
-
+[
+  {
+    "id": 1,
+    "title": "Passo 1 - Sárdio",
+    "description": "A palavra está perto de ti, na tua boca e no teu coração; isto é, a palavra da fé que pregamos. Se, com a tua boca, confessares Jesus como Senhor e, em teu coração, creres que Deus o ressuscitou dentre os mortos, serás salvo. Porque com o coração se crê para justiça e com a boca se confessa a respeito da salvação.",
+    "src": "assets/1.webp"
+  },
+  {
+    "id": 2,
+    "title": "Passo 2 - Topázio",
+    "description": "E perseveravam na doutrina dos apóstolos e na comunhão, no partir do pão e nas orações. Em cada alma havia temor; e muitos prodígios e sinais eram feitos por intermédio dos apóstolos. Todos os que creram estavam juntos e tinham tudo em comum. Vendiam as suas propriedades e bens, distribuindo o produto entre todos, à medida que alguém tinha necessidade. Diariamente perseveravam unânimes no templo, partiam pão de casa em casa e tomavam as suas refeições com alegria e singeleza de coração, louvando a Deus e contando com a simpatia de todo o povo. Enquanto isso, acrescentava-lhes o Senhor, dia a dia, os que iam sendo salvos.",
+    "src": "assets/2.webp"
+  },
+  {
+    "id": 3,
+    "title": "Passo 3 - Carbúnculo",
+    "description": "Jesus, aproximando-se, falou-lhes, dizendo: Toda a autoridade me foi dada no céu e na terra. Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; ensinando-os a guardar todas as coisas que vos tenho ordenado. E eis que estou convosco todos os dias até à consumação do século.",
+    "src": "assets/3.webp"
+  },
+  {
+    "id": 4,
+    "title": "Passo 4 - Esmeralda",
+    "description": "Despojando-vos, portanto, de toda maldade e dolo, de hipocrisias e invejas e de toda sorte de maledicências, desejai ardentemente, como crianças recém-nascidas, o genuíno leite espiritual, para que, por ele, vos seja dado crescimento para salvação.",
+    "src": "assets/4.webp"
+  },
+  {
+    "id": 5,
+    "title": "Passo 5 - Safira",
+    "description": "Ouvindo eles estas coisas, compungiu-se-lhes o coração e perguntaram a Pedro e aos demais apóstolos: Que faremos, irmãos? Respondeu-lhes Pedro: Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo para remissão dos vossos pecados, e recebereis o dom do Espírito Santo. Pois para vós outros é a promessa, para vossos filhos e para todos os que ainda estão longe, isto é, para quantos o Senhor, nosso Deus, chamar.",
+    "src": "assets/5.webp"
+  },
+  {
+    "id": 6,
+    "title": "Passo 6 - Diamante",
+    "description": "Eu sou a videira verdadeira, e meu Pai é o agricultor. Todo ramo que, estando em mim, não der fruto, ele o corta; e todo o que dá fruto limpa, para que produza mais fruto ainda. Vós já estais limpos pela palavra que vos tenho falado; permanecei em mim, e eu permanecerei em vós. Como não pode o ramo produzir fruto de si mesmo, se não permanecer na videira, assim, nem vós o podeis dar, se não permanecerdes em mim. Eu sou a videira, vós, os ramos. Quem permanece em mim, e eu, nele, esse dá muito fruto; porque sem mim nada podeis fazer. Se alguém não permanecer em mim, será lançado fora, à semelhança do ramo, e secará; e o apanham, lançam no fogo e o queimam. Se permanecerdes em mim, e as minhas palavras permanecerem em vós, pedireis o que quiserdes, e vos será feito. Nisto é glorificado meu Pai, em que deis muito fruto; e assim vos tornareis meus discípulos.",
+    "src": "assets/6.webp"
+  },
+  {
+    "id": 7,
+    "title": "Passo 7 - Jacinto",
+    "description": "Tu, porém, permanece naquilo que aprendeste e de que foste inteirado, sabendo de quem o aprendeste e que, desde a infância, sabes as sagradas letras, que podem tornar-te sábio para a salvação pela fé em Cristo Jesus. Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção, para a educação na justiça, a fim de que o homem de Deus seja perfeito e perfeitamente habilitado para toda boa obra.",
+    "src": "assets/7.webp"
+  },
+  {
+    "id": 8,
+    "title": "Passo 8 - Ágata",
+    "description": "A mão do Senhor estava com eles, e muitos, crendo, se converteram ao Senhor. A notícia a respeito deles chegou aos ouvidos da igreja que estava em Jerusalém; e enviaram Barnabé até Antioquia. Tendo ele chegado e, vendo a graça de Deus, alegrou-se e exortava a todos a que, com firmeza de coração, permanecessem no Senhor. Porque era homem bom, cheio do Espírito Santo e de fé. E muita gente se uniu ao Senhor. E partiu Barnabé para Tarso à procura de Saulo; tendo-o encontrado, levou-o para Antioquia. E, por todo um ano, se reuniram naquela igreja e ensinaram numerosa multidão. Em Antioquia, foram os discípulos, pela primeira vez, chamados cristãos.",
+    "src": "assets/8.webp"
+  },
+  {
+    "id": 9,
+    "title": "Passo 9 - Ametista",
+    "description": "Vós sois meus amigos, se fazeis o que eu vos mando. Já não vos chamo servos, porque o servo não sabe o que faz o seu senhor; mas tenho-vos chamado amigos, porque tudo quanto ouvi de meu Pai vos tenho dado a conhecer. Não fostes vós que me escolhestes a mim; pelo contrário, eu vos escolhi a vós outros e vos designei para que vades e deis fruto, e o vosso fruto permaneça; a fim de que tudo quanto pedirdes ao Pai em meu nome, ele vo-lo conceda.",
+    "src": "assets/9.webp"
+  },
+  {
+    "id": 10,
+    "title": "Passo 10 - Berilo",
+    "description": "Procura apresentar-te a Deus aprovado, como obreiro que não tem de que se envergonhar, que maneja bem a palavra da verdade.",
+    "src": "assets/10.webp"
+  },
+  {
+    "id": 11,
+    "title": "Passo 11 - Ônix",
+    "description": "Assim, fez passar Jessé os seus sete filhos diante de Samuel; porém Samuel disse a Jessé: O Senhor não escolheu estes. Perguntou Samuel a Jessé: Acabaram-se os teus filhos? Ele respondeu: Ainda falta o mais moço, que está apascentando as ovelhas. Disse, pois, Samuel a Jessé: Manda chamá-lo, pois não nos assentaremos à mesa sem que ele venha. Então, mandou chamá-lo e fê-lo entrar. Era ele ruivo, de belos olhos e boa aparência. Disse o Senhor: Levanta-te e unge-o, pois este é ele. Tomou Samuel o chifre do azeite e o ungiu no meio de seus irmãos; e, daquele dia em diante, o Espírito do Senhor se apossou de Davi. Então, Samuel se levantou e foi para Ramá.",
+    "src": "assets/11.webp"
+  },
+  {
+    "id": 12,
+    "title": "Passo 12 - Jaspe",
+    "description": "Então, jejuando, e orando, e impondo sobre eles as mãos, os despediram. Enviados, pois, pelo Espírito Santo, desceram a Selêucia e dali navegaram para Chipre.",
+    "src": "assets/12.webp"
+  },
+  {
+    "id": 13,
+    "title": "Passo 13 👑",
+    "description": "Combati o bom combate, completei a carreira, guardei a fé. Já agora a coroa da justiça me está guardada, a qual o Senhor, reto juiz, me dará naquele Dia; e não somente a mim, mas também a todos quantos amam a sua vinda.",
+    "src": "assets/13.webp"
+  }
+]
