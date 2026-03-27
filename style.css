@@ -1,0 +1,280 @@
+:root {
+    --max-width: 1280px;
+    --gap: 16px;
+    --radius: 14px;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --overlay: rgba(0, 0, 0, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+.main {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 24px 16px 40px;
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: clamp(1.6rem, 2.2vw, 2.3rem);
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: var(--gap);
+}
+
+.gallery-item {
+    position: relative;
+    /* background: var(--card); */
+    border: 0;
+    border-radius: var(--radius);
+    overflow: hidden;
+    cursor: pointer;
+    /* box-shadow: var(--shadow); */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-item:hover,
+.gallery-item:focus-visible {
+    transform: translateY(-3px);
+    /* box-shadow: 0 14px 34px rgba(0, 0, 0, 0.2); */
+    outline: none;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.gallery-item span {
+    display: block;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: center;
+    background: #fff;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: var(--overlay);
+    z-index: 1000;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-card {
+    width: min(100%, 560px);
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    animation: popup 0.2s ease;
+}
+
+@keyframes popup {
+    from {
+    opacity: 0;
+    transform: scale(0.96);
+    }
+    to {
+    opacity: 1;
+    transform: scale(1);
+    }
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.close-btn {
+    border: 0;
+    background: #4E0000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    flex-shrink: 0;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-body p {
+    line-height: 1.6;
+    color: #374151;
+}
+.site-header {
+width: 100%;
+background: #4E0000;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.site-header__inner {
+width: 100%;
+max-width: 1280px;
+min-height: 110px;
+margin: 0 auto;
+padding: 0 24px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 24px;
+}
+
+.brand {
+display: inline-flex;
+align-items: center;
+text-decoration: none;
+}
+
+.brand__logo {
+display: block;
+width: auto;
+max-width: 170px;
+height: auto;
+object-fit: contain;
+}
+
+.nav {
+display: flex;
+align-items: center;
+}
+
+.nav__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1;
+    transition: opacity 0.2s ease;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.nav__link:hover {
+opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+.site-header__inner {
+    min-height: 84px;
+    padding: 0 16px;
+}
+
+.brand__logo {
+    max-width: 170px;
+}
+
+.nav__link {
+    font-size: 1.1rem;
+}
+}
+
+@media (max-width: 480px) {
+.site-header__inner {
+    min-height: 76px;
+    padding: 0 14px;
+}
+
+.brand__logo {
+    max-width: 145px;
+}
+
+.nav__link {
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 1100px) {
+    .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+    padding: 20px 14px 32px;
+    }
+
+    .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    }
+
+    .modal-header {
+    padding: 16px;
+    }
+
+    .modal-body {
+    padding: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+    grid-template-columns: 1fr;
+    }
+
+    .gallery-item span {
+    font-size: 0.9rem;
+    }
+
+    .close-btn {
+    padding: 9px 12px;
+    }
+}
+
+.site-footer{
+width: 100%;
+background: #4E0000;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
